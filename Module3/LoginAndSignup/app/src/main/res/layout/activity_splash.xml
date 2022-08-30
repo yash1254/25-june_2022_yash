@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SplashActivity">
+
+    <ImageView
+        android:id="@+id/iv_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_splash" />
+
+    <TextView
+        android:id="@+id/txt_ffi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_180sdp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:shadowColor="@color/white"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="10"
+        android:text="Fashion For India"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp" />
+
+
+    <TextView
+        android:id="@+id/txt_ftf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_150sdp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Feel the Fabric"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp" />
+
+</RelativeLayout>

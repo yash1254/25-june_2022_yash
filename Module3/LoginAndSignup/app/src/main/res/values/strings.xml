@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LoginAndSignup</string>
+    <string name="register"><u>REGISTER</u></string>
+    <string name="skip"><u>SKIP</u></string>
+    <string name="login"><u>LOG IN</u></string>
+</resources>

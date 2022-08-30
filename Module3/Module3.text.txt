@@ -1,0 +1,23 @@
+1)What is R.java file 
+  =>Android R.java is an auto-generated file by aapt (Android Asset Packaging Tool) that contains 
+    resource IDs for all the resources of res/ directory. If you create any component in the 
+    activity_main.xml file, id for the corresponding component is automatically created in this file. 
+
+2)what is activity and activity life cycle
+=>#Activity->An activity provides the window in which the app draws its UI. This window typically 
+             fills the screen, but may be smaller than the screen and float on top of other windows.
+             Generally, one activity implements one screen in an app
+ #Activity life cycle->Activity Lifecycle: Activity is one of the building blocks of Android OS. 
+                       In simple words Activity is a screen that user interact with. Every Activity  
+                       in android has lifecycle like created, started, resumed, paused, stopped or 
+                       destroyed. These different states are known as Activity Lifecycle.
+
+3)What is fragment and fragment life cycle in android 
+=>#Fragment->A fragment defines and manages its own layout, has its own lifecycle, and can handle its
+             own input events. Fragments cannot live on their own--they must be hosted by an activity 
+             or another fragment. The fragment’s view hierarchy becomes part of, or attaches to, the  
+             host’s view hierarchy.
+  #Fragment life cycle->Fragment life cycle is closely related to the life cycle of its host activity 
+                        which means when the activity is paused, all the fragments available in the  
+                        activity will also be stopped.A fragment can implement a behaviour that has
+                        no user interface component.
