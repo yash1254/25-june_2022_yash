@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="mylangs">
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>Android</item>
+        <item>Kotlin</item>
+        <item>PHP</item>
+    </string-array>
+</resources>

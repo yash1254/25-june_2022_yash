@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mylang">
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>Android</item>
+        <item>Kotlin</item>
+        <item>PHP</item>
+    </string-array>
+</resources>

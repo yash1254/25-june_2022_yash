@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/ed_num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number 1"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/ed_num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number 2"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:layout_margin="20dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <RadioButton
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"/>
+
+        <RadioButton
+            android:id="@+id/subtraction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtraction"/>
+
+        <RadioButton
+            android:id="@+id/multiply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiply"/>
+
+        <RadioButton
+            android:id="@+id/devision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Division"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Total"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>
